@@ -1,0 +1,56 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.000  000.000: --- VIM STARTING ---
+000.000  000.000: Allocated generic buffers
+000.000  000.000: locale set
+000.000  000.000: clipboard setup
+000.000  000.000: window checked
+029.002  029.002: inits 1
+029.002  000.000: parsing arguments
+029.002  000.000: expanding arguments
+029.002  000.000: shell init
+030.002  001.000: Termcap init
+030.002  000.000: inits 2
+030.002  000.000: init highlight
+104.006  015.001  015.001: sourcing /usr/share/vim/vim82/filetype.vim
+114.007  001.000  001.000: sourcing /usr/share/vim/vim82/ftplugin.vim
+141.008  000.000  000.000: sourcing /usr/share/vim/vim82/indent.vim
+225.013  015.001  015.001: sourcing /usr/share/vim/vim82/syntax/syncolor.vim
+226.013  017.001  002.000: sourcing /usr/share/vim/vim82/syntax/synload.vim
+226.013  026.001  009.000: sourcing /usr/share/vim/vim82/syntax/syntax.vim
+227.013  179.010  137.008: sourcing /usr/share/vim/vim82/defaults.vim
+227.013  197.011  018.001: sourcing /etc/vimrc
+229.013  000.000  000.000: sourcing $VIMRUNTIME/defaults.vim
+229.013  002.000: sourcing vimrc file(s)
+353.020  000.000  000.000: sourcing /usr/share/vim/vim82/plugin/getscriptPlugin.vim
+354.020  001.000  001.000: sourcing /usr/share/vim/vim82/plugin/gzip.vim
+355.020  001.000  001.000: sourcing /usr/share/vim/vim82/plugin/logiPat.vim
+355.020  000.000  000.000: sourcing /usr/share/vim/vim82/plugin/manpager.vim
+356.021  000.000  000.000: sourcing /usr/share/vim/vim82/plugin/matchparen.vim
+367.021  011.000  011.000: sourcing /usr/share/vim/vim82/plugin/netrwPlugin.vim
+368.021  000.000  000.000: sourcing /usr/share/vim/vim82/plugin/rrhelper.vim
+368.021  000.000  000.000: sourcing /usr/share/vim/vim82/plugin/spellfile.vim
+369.021  001.000  001.000: sourcing /usr/share/vim/vim82/plugin/tarPlugin.vim
+370.021  001.000  001.000: sourcing /usr/share/vim/vim82/plugin/tohtml.vim
+371.021  001.000  001.000: sourcing /usr/share/vim/vim82/plugin/vimballPlugin.vim
+372.021  001.000  001.000: sourcing /usr/share/vim/vim82/plugin/zipPlugin.vim
+372.021  126.008: loading plugins
+372.021  000.000: loading packages
+373.022  001.001: loading after plugins
+373.022  000.000: inits 3
+409.024  036.002: reading viminfo
+409.024  000.000: setting raw mode
+409.024  000.000: start termcap
+409.024  000.000: clearing screen
+575.033  026.001  026.001: sourcing /usr/share/vim/vim82/scripts.vim
+576.033  141.008: opening buffers
+576.033  000.000: BufEnter autocommands
+576.033  000.000: editing files in windows
+587.034  011.001: VimEnter autocommands
+587.034  000.000: before starting main loop
+663.038  076.004: first screen update
+663.038  000.000: --- VIM STARTED ---
