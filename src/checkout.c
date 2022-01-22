@@ -81,11 +81,11 @@ typedef struct {
 	const git_index_entry *ours;
 	const git_index_entry *theirs;
 
-	int name_collision:1,
-		directoryfile:1,
-		one_to_two:1,
-		binary:1,
-		submodule:1;
+	unsigned int name_collision:1,
+	             directoryfile:1,
+	             one_to_two:1,
+	             binary:1,
+	             submodule:1;
 } checkout_conflictdata;
 
 static int checkout_notify(
@@ -963,7 +963,7 @@ static int checkout_conflicts_load(checkout_data *data, git_iterator *workdir, g
 {
 	git_index *index;
 
-	/* Only write conficts from sources that have them: indexes. */
+	/* Only write conflicts from sources that have them: indexes. */
 	if ((index = git_iterator_index(data->target)) == NULL)
 		return 0;
 

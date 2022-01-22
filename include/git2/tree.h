@@ -255,7 +255,7 @@ GIT_EXTERN(int) git_treebuilder_new(
 	git_treebuilder **out, git_repository *repo, const git_tree *source);
 
 /**
- * Clear all the entires in the builder
+ * Clear all the entries in the builder
  *
  * @param bld Builder to clear
  * @return 0 on success; error code otherwise
@@ -418,6 +418,7 @@ GIT_EXTERN(int) git_tree_walk(
  *
  * @param out Pointer to store the copy of the tree
  * @param source Original tree to copy
+ * @return 0
  */
 GIT_EXTERN(int) git_tree_dup(git_tree **out, git_tree *source);
 
